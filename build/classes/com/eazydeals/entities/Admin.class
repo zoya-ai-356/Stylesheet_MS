@@ -1,0 +1,193 @@
+package com/eazydeals/entities;
+
+public super class Admin version 61:0
+{
+  private Field id:I;
+  private Field name:"Ljava/lang/String;";
+  private Field email:"Ljava/lang/String;";
+  private Field phone:"Ljava/lang/String;";
+  private Field password:"Ljava/lang/String;";
+
+  public Method "<init>":"()V"
+    stack 1  locals 1
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         aload_0;  // line 11
+         invokespecial     Method java/lang/Object."<init>":"()V";
+         return;  // line 12
+         endvar            0;
+    LineTable:
+         line   11:        0
+         line   12:        4
+  }
+
+  public Method "<init>":"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+    stack 2  locals 5
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         var               1 name:"Ljava/lang/String;";
+         var               2 email:"Ljava/lang/String;";
+         var               3 phone:"Ljava/lang/String;";
+         var               4 password:"Ljava/lang/String;";
+         aload_0;  // line 15
+         invokespecial     Method java/lang/Object."<init>":"()V";
+         aload_0;  // line 16
+         aload_1;
+         putfield          Field name:"Ljava/lang/String;";
+         aload_0;  // line 17
+         aload_2;
+         putfield          Field email:"Ljava/lang/String;";
+         aload_0;  // line 18
+         aload_3;
+         putfield          Field phone:"Ljava/lang/String;";
+         aload_0;  // line 19
+         aload             4;
+         putfield          Field password:"Ljava/lang/String;";
+         return;  // line 20
+         endvar            0,1,2,3,4;
+    LineTable:
+         line   15:        0
+         line   16:        4
+         line   17:        9
+         line   18:       14
+         line   19:       19
+         line   20:       25
+  }
+
+  public Method getId:"()I"
+    stack 1  locals 1
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         aload_0;  // line 23
+         getfield          Field id:"I";
+         ireturn;
+         endvar            0;
+    LineTable:
+         line   23:        0
+  }
+
+  public Method setId:"(I)V"
+    stack 2  locals 2
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         var               1 id:I;
+         aload_0;  // line 27
+         iload_1;
+         putfield          Field id:"I";
+         return;  // line 28
+         endvar            0,1;
+    LineTable:
+         line   27:        0
+         line   28:        5
+  }
+
+  public Method getName:"()Ljava/lang/String;"
+    stack 1  locals 1
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         aload_0;  // line 31
+         getfield          Field name:"Ljava/lang/String;";
+         areturn;
+         endvar            0;
+    LineTable:
+         line   31:        0
+  }
+
+  public Method setName:"(Ljava/lang/String;)V"
+    stack 2  locals 2
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         var               1 name:"Ljava/lang/String;";
+         aload_0;  // line 35
+         aload_1;
+         putfield          Field name:"Ljava/lang/String;";
+         return;  // line 36
+         endvar            0,1;
+    LineTable:
+         line   35:        0
+         line   36:        5
+  }
+
+  public Method getEmail:"()Ljava/lang/String;"
+    stack 1  locals 1
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         aload_0;  // line 39
+         getfield          Field email:"Ljava/lang/String;";
+         areturn;
+         endvar            0;
+    LineTable:
+         line   39:        0
+  }
+
+  public Method setEmail:"(Ljava/lang/String;)V"
+    stack 2  locals 2
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         var               1 email:"Ljava/lang/String;";
+         aload_0;  // line 43
+         aload_1;
+         putfield          Field email:"Ljava/lang/String;";
+         return;  // line 44
+         endvar            0,1;
+    LineTable:
+         line   43:        0
+         line   44:        5
+  }
+
+  public Method getPhone:"()Ljava/lang/String;"
+    stack 1  locals 1
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         aload_0;  // line 47
+         getfield          Field phone:"Ljava/lang/String;";
+         areturn;
+         endvar            0;
+    LineTable:
+         line   47:        0
+  }
+
+  public Method setPhone:"(Ljava/lang/String;)V"
+    stack 2  locals 2
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         var               1 phone:"Ljava/lang/String;";
+         aload_0;  // line 51
+         aload_1;
+         putfield          Field phone:"Ljava/lang/String;";
+         return;  // line 52
+         endvar            0,1;
+    LineTable:
+         line   51:        0
+         line   52:        5
+  }
+
+  public Method getPassword:"()Ljava/lang/String;"
+    stack 1  locals 1
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         aload_0;  // line 55
+         getfield          Field password:"Ljava/lang/String;";
+         areturn;
+         endvar            0;
+    LineTable:
+         line   55:        0
+  }
+
+  public Method setPassword:"(Ljava/lang/String;)V"
+    stack 2  locals 2
+  {
+         var               0 this:"Lcom/eazydeals/entities/Admin;";
+         var               1 password:"Ljava/lang/String;";
+         aload_0;  // line 59
+         aload_1;
+         putfield          Field password:"Ljava/lang/String;";
+         return;  // line 60
+         endvar            0,1;
+    LineTable:
+         line   59:        0
+         line   60:        5
+  }
+
+  SourceFile               "Admin.java";
+} // end Class com/eazydeals/entities/Admin
