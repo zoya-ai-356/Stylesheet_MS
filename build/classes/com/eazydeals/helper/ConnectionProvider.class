@@ -1,0 +1,35 @@
+package com/eazydeals/helper;
+
+public super class ConnectionProvider version 61:0
+{
+  private static final Field serialVersionUID:J = long 1l;
+  private static Field connection:"Ljava/sql/Connection;";
+
+  public Method "<init>":"()V"
+    stack 3  locals 1
+  {
+         var               0 this:"Lcom/eazydeals/helper/ConnectionProvider;";
+         new               class java/lang/Error;  // line 5
+         dup;
+         ldc               String "Unresolved compilation problems: \n\tThe import jakarta.servlet cannot be resolved\n\tHttpServlet cannot be resolved to a type\n";
+         invokespecial     Method java/lang/Error."<init>":"(Ljava/lang/String;)V";
+         athrow;
+         endvar            0;
+    LineTable:
+         line    5:        0
+  }
+
+  public static Method getConnection:"()Ljava/sql/Connection;"
+    stack 3  locals 0
+  {
+         new               class java/lang/Error;  // line 12
+         dup;
+         ldc               String "Unresolved compilation problem: \n";
+         invokespecial     Method java/lang/Error."<init>":"(Ljava/lang/String;)V";
+         athrow;
+    LineTable:
+         line   12:        0
+  }
+
+  SourceFile               "ConnectionProvider.java";
+} // end Class com/eazydeals/helper/ConnectionProvider
